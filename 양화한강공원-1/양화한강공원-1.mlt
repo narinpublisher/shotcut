@@ -1,0 +1,637 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.37.0" title="Shotcut version 26.2.26" producer="main_bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="30" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:01:16.033">
+    <property name="length">00:01:16.067</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:01:16.033"/>
+  </playlist>
+  <chain id="chain0" out="00:10:12.967">
+    <property name="length">00:10:13.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/유튜브콘텐츠/당산역_양화한강공원/당산역 4번출구 방향  양화한강공원.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">video</property>
+    <property name="meta.media.0.stream.frame_rate">30</property>
+    <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.width">1920</property>
+    <property name="meta.media.0.codec.height">1080</property>
+    <property name="meta.media.0.codec.rotate">0</property>
+    <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+    <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.0.codec.colorspace">709</property>
+    <property name="meta.media.0.codec.color_trc">1</property>
+    <property name="meta.media.0.codec.name">h264</property>
+    <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+    <property name="meta.media.0.codec.bit_rate">3789104</property>
+    <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+    <property name="meta.attr.0.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.media.1.stream.type">audio</property>
+    <property name="meta.media.1.codec.sample_fmt">fltp</property>
+    <property name="meta.media.1.codec.sample_rate">48000</property>
+    <property name="meta.media.1.codec.channels">2</property>
+    <property name="meta.media.1.codec.layout">stereo</property>
+    <property name="meta.media.1.codec.name">aac</property>
+    <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+    <property name="meta.media.1.codec.bit_rate">192000</property>
+    <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+    <property name="meta.attr.1.stream.vendor_id.markup">[0][0][0][0]</property>
+    <property name="meta.attr.major_brand.markup">isom</property>
+    <property name="meta.attr.minor_version.markup">512</property>
+    <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+    <property name="meta.attr.encoder.markup">Lavf58.29.100</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="creation_time">2026-03-29T03:11:33</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">30</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">709</property>
+    <property name="meta.media.color_trc">1</property>
+    <property name="meta.media.has_b_frames">2</property>
+    <property name="meta.media.width">1920</property>
+    <property name="meta.media.height">1080</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">mpeg</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:hash">6261f2d01d264bb5a494f5c5460eac73</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">당산역 4번출구 방향  양화한강공원.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" out="00:01:16.033">
+      <property name="start">1</property>
+      <property name="level">00:00:00.000=0;00:00:00.967=1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter1" out="00:01:16.033">
+      <property name="start">1</property>
+      <property name="level">00:01:15.067=1;00:01:16.033=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <property name="shotcut:lock">0</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:01:16.033"/>
+  </playlist>
+  <chain id="chain2" out="00:02:44.733">
+    <property name="length">00:02:44.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/유튜브콘텐츠/=배경음악/audio01/# A Snowy Serenade (3).mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">2</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">190587</property>
+    <property name="meta.attr.0.stream.encoder.markup">Lavc60.31</property>
+    <property name="meta.media.1.stream.type">video</property>
+    <property name="meta.media.1.stream.frame_rate">90000</property>
+    <property name="meta.media.1.stream.sample_aspect_ratio">0</property>
+    <property name="meta.media.1.codec.width">360</property>
+    <property name="meta.media.1.codec.height">360</property>
+    <property name="meta.media.1.codec.rotate">0</property>
+    <property name="meta.media.1.codec.pix_fmt">yuvj420p</property>
+    <property name="meta.media.1.codec.sample_aspect_ratio">1</property>
+    <property name="meta.media.1.codec.colorspace">601</property>
+    <property name="meta.media.1.codec.name">mjpeg</property>
+    <property name="meta.media.1.codec.long_name">MJPEG (Motion JPEG)</property>
+    <property name="meta.media.1.codec.bit_rate">0</property>
+    <property name="meta.attr.1.stream.title.markup">Cover</property>
+    <property name="meta.attr.1.stream.comment.markup">Cover (front)</property>
+    <property name="meta.attr.title.markup">A Snowy Serenade</property>
+    <property name="meta.attr.artist.markup">skipped</property>
+    <property name="seekable">1</property>
+    <property name="meta.media.sample_aspect_num">1</property>
+    <property name="meta.media.sample_aspect_den">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">1</property>
+    <property name="creation_time">2025-12-17T19:39:36</property>
+    <property name="vstream">0</property>
+    <property name="meta.media.frame_rate_num">90000</property>
+    <property name="meta.media.frame_rate_den">1</property>
+    <property name="meta.media.colorspace">601</property>
+    <property name="meta.media.color_trc">2</property>
+    <property name="meta.media.has_b_frames">0</property>
+    <property name="meta.media.width">360</property>
+    <property name="meta.media.height">360</property>
+    <property name="meta.media.aspect_ratio">1</property>
+    <property name="meta.media.color_range">full</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">c308fe8ca6c732b6d060070233d80a8b</property>
+    <property name="meta.media.top_field_first">0</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="shotcut:caption"># A Snowy Serenade (3).mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" out="00:01:16.033">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-15</property>
+      <property name="channel_mask">-1</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">audioGain</property>
+    </filter>
+    <filter id="filter3" out="00:01:16.033">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:00.967=0</property>
+      <property name="channel_mask">-1</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
+    <filter id="filter4" out="00:01:16.033">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:01:15.067=0;00:01:16.033=-60</property>
+      <property name="channel_mask">-1</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <property name="shotcut:lock">0</property>
+    <entry producer="chain2" in="00:00:00.000" out="00:01:16.033"/>
+  </playlist>
+  <chain id="chain6" out="00:04:46.800">
+    <property name="length">00:04:46.833</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/유튜브콘텐츠/당산역_양화한강공원/양화한강공원.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.layout">stereo</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">192000</property>
+    <property name="meta.attr.TFLT.markup">MPG/3</property>
+    <property name="meta.attr.iTunSMPB.markup"> 00000000 00000000 00000000 0000000000d21261 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-04-13T02:23:02</property>
+    <property name="astream">0</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">66c928d37d03d10f6e9df2e3f2765aba</property>
+    <property name="shotcut:caption">양화한강공원.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist2">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A2</property>
+    <property name="shotcut:lock">0</property>
+    <entry producer="chain6" in="00:00:00.000" out="00:01:16.033"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 26.2.26" in="00:00:00.000" out="00:01:16.033">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:processingMode">Native8Cpu</property>
+    <property name="shotcut:scaleFactor">0.546377</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="meta.shotcut.vui">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <track producer="playlist2" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+      <property name="rotate_center">0</property>
+      <property name="mlt_service">qtblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <filter id="filter5">
+      <property name="feed">자막 트랙 1</property>
+      <property name="lang">kor</property>
+      <property name="mlt_service">subtitle_feed</property>
+      <property name="shotcut:hidden">1</property>
+      <property name="text">1
+00:00:02,900 --&gt; 00:00:12,366
+오늘은 서울 영등포구에 위치한 당산 보행육교를 통해
+양화한강공원까지 직접 걸어가 보겠습니다.
+
+2
+00:00:12,866 --&gt; 00:00:16,633
+출발 지점은 당산역 4번 출구입니다
+
+3
+00:00:17,600 --&gt; 00:00:23,733
+지하철 2호선과 9호선을 이용하면
+접근이 매우 편리한 위치입니다
+
+4
+00:00:25,033 --&gt; 00:00:33,566
+당산역 4번 출구로 나오면 한강 방향 철길 옆으로
+목재로 된 육교가 바로 보입니다
+
+5
+00:00:33,966 --&gt; 00:00:42,400
+이 육교는 당산동과 여의도 샛강생태공원을
+연결하는 보행 및 자전거 전용 다리입니다
+
+6
+00:00:43,066 --&gt; 00:00:51,133
+2016년 5월에 개통되었고
+길이는 약 139m, 폭은 5m입니다
+
+7
+00:00:51,666 --&gt; 00:00:59,200
+바닥은 목재로 마감되어 있어 일반 콘크리트 육교보다
+보행감이 훨씬 부드럽습니다
+
+8
+00:00:59,700 --&gt; 00:01:07,700
+난간은 유리 구조로 되어 있어서
+양쪽 시야가 막히지 않고 개방감이 좋은 것이 특징입니다
+
+9
+00:01:08,733 --&gt; 00:01:15,466
+강관 트러스 구조로 설계되어
+안정성과 디자인을 동시에 고려한 형태입니다
+
+10
+00:01:41,766 --&gt; 00:01:48,300
+이 육교는 보행자뿐만 아니라
+자전거 이용자도 함께 사용할 수 있습니다
+
+11
+00:01:48,766 --&gt; 00:01:57,500
+또한 엘리베이터가 설치되어 있어 노약자나 장애인, 
+유모차 이용자도 불편 없이 이동할 수 있습니다
+
+12
+00:01:58,066 --&gt; 00:02:04,066
+경사로 없이
+상하 이동이 가능한 점이 큰 장점입니다
+
+13
+00:02:04,800 --&gt; 00:02:11,833
+육교 끝으로 이동하면 엘리베이터와 
+계단을 통해 아래로 내려갈 수 있습니다
+
+14
+00:02:12,366 --&gt; 00:02:19,900
+이 구간을 통해 여의도 샛강생태공원과
+한강 자전거 도로로 바로 연결됩니다
+
+15
+00:02:20,633 --&gt; 00:02:24,466
+보행 동선이 자연스럽게 이어지는 구조입니다
+
+16
+00:02:25,100 --&gt; 00:02:32,600
+엘리베이터를 이용해 내려오면
+바로 한강변 산책로로 이어집니다
+
+17
+00:02:33,533 --&gt; 00:02:42,366
+이곳은 양화한강공원 구간으로
+영등포구 당산동과 양평동 일대에 위치해 있습니다
+
+18
+00:02:46,066 --&gt; 00:02:54,400
+다른 한강공원에 비해 비교적 한적한 편이라
+조용한 산책을 원하는 분들에게 적합합니다
+
+19
+00:02:57,700 --&gt; 00:03:05,333
+공원 내부에는
+자전거 도로, 산책로, 운동 시설이 잘 갖춰져 있습니다
+
+20
+00:03:07,733 --&gt; 00:03:13,700
+축구장, 농구장, 배구장 등
+체육 시설도 이용 가능하며
+
+21
+00:03:15,200 --&gt; 00:03:21,966
+자전거 대여소도 있어
+라이딩 코스로도 많이 활용됩니다
+
+22
+00:03:23,633 --&gt; 00:03:30,633
+이곳에서는 선유교를 통해
+선유도공원으로 이동할 수 있습니다
+
+23
+00:03:32,600 --&gt; 00:03:43,166
+선유도공원은 과거 정수장을 생태공원으로 재생한 공간으로
+서울 내에서도 대표적인 산책 명소입니다
+
+24
+00:03:46,033 --&gt; 00:03:54,266
+또한 봄철에는 장미단지,
+가을에는 물억새길이 유명합니다
+
+25
+00:03:57,400 --&gt; 00:04:03,933
+공원에서는 지정된 구역에 한해
+소형 텐트 설치가 가능합니다
+
+26
+00:04:06,633 --&gt; 00:04:14,466
+운영 기간은 3월부터 11월까지이며
+현재 시기에도 이용할 수 있습니다
+
+27
+00:04:17,266 --&gt; 00:04:23,700
+편의점도 있어
+간단한 먹거리나 한강 라면을 즐길 수 있습니다
+
+28
+00:04:29,900 --&gt; 00:04:37,300
+계절이 봄으로 바뀌는 즈음엔
+한강 주변 풍경이 조금씩 달라지기 시작합니다
+
+29
+00:04:39,766 --&gt; 00:04:48,333
+아직 나무들이 완전히 푸르지는 않지만
+가만히 보면 가지 끝에서 작은 변화들이 느껴집니다
+
+30
+00:04:50,866 --&gt; 00:04:57,366
+이 시기에는 겨울의 흔적과 봄의 시작이
+같이 공존하는 모습이 보이죠
+
+31
+00:05:00,200 --&gt; 00:05:09,333
+한강은 예전부터 단순한 강이 아니라
+서울의 중심을 가로지르는 중요한 공간이었습니다
+
+32
+00:05:13,533 --&gt; 00:05:17,133
+과거에는 물류와 교통의 역할을 했고
+
+33
+00:05:17,200 --&gt; 00:05:23,633
+지금은 시민들의 휴식 공간으로
+완전히 다른 의미를 가지게 되었죠
+
+34
+00:05:25,933 --&gt; 00:05:29,500
+특히 이런 공원 형태로 정비된 이후에는
+
+35
+00:05:29,600 --&gt; 00:05:34,966
+누구나 쉽게 접근할 수 있는
+도심 속 여유 공간이 되었습니다
+
+36
+00:05:37,900 --&gt; 00:05:45,466
+요즘처럼 날씨가 조금씩 풀리면
+자연스럽게 사람들이 한강으로 나오기 시작합니다
+
+37
+00:05:47,900 --&gt; 00:05:58,533
+돗자리를 펴고 앉아 있는 사람들, 간단하게 산책을 즐기는 사람들,
+자전거를 타는 사람들까지
+
+38
+00:06:00,000 --&gt; 00:06:05,066
+각자 다른 방식으로
+이 공간을 이용하고 있습니다
+
+39
+00:06:09,066 --&gt; 00:06:17,233
+특히 주말이 되면 이곳은 작은 야외 쉼터처럼
+분위기가 완전히 달라지기도 합니다
+
+40
+00:06:20,200 --&gt; 00:06:28,000
+한강공원의 특징 중 하나는
+이렇게 누구나 부담 없이 시간을 보낼 수 있다는 점입니다
+
+41
+00:06:30,500 --&gt; 00:06:34,400
+특별한 준비 없이도
+그냥 걷기만 해도 되고
+
+42
+00:06:34,900 --&gt; 00:06:41,533
+잠깐 앉아서
+강을 바라보는 것만으로도 충분한 시간이 됩니다.
+
+43
+00:06:44,033 --&gt; 00:06:49,900
+양화한강공원은
+그중에서도 비교적 조용한 편에 속합니다
+
+44
+00:06:51,966 --&gt; 00:07:00,500
+여의도처럼 붐비는 분위기보다는
+조금 더 여유 있고 차분한 흐름이 유지되는 곳입니다
+
+45
+00:07:02,866 --&gt; 00:07:09,733
+그래서인지 혼자 산책을 하거나
+생각을 정리하기에도 좋은 장소입니다
+
+46
+00:07:12,366 --&gt; 00:07:18,400
+조금 더 걸어가다 보면
+선유도공원으로 이어지는 다리도 나오는데
+
+47
+00:07:18,500 --&gt; 00:07:24,066
+이 주변은
+서울에서도 손꼽히는 산책 코스 중 하나입니다
+
+48
+00:07:26,066 --&gt; 00:07:29,100
+예전에는 산업시설이었던 공간이
+
+49
+00:07:29,166 --&gt; 00:07:39,200
+지금은 자연과 사람이 공존하는 공간으로 바뀌었다는 점도
+한강의 변화된 모습을 보여주는 부분입니다
+
+50
+00:07:40,666 --&gt; 00:07:45,700
+이 시간대의 한강은
+특히 분위기가 좋은 편입니다
+
+51
+00:07:45,866 --&gt; 00:07:50,733
+낮의 밝은 느낌에서
+저녁으로 넘어가는 과정에서
+
+52
+00:07:50,866 --&gt; 00:07:57,933
+빛의 색이 점점 따뜻해지고
+전체적인 풍경이 부드럽게 변합니다
+
+53
+00:07:58,466 --&gt; 00:08:06,600
+그래서 많은 사람들이
+이 시간에 맞춰 산책이나 나들이를 나오기도 합니다
+
+54
+00:08:09,066 --&gt; 00:08:14,166
+강 주변에는 이미 적지 않은 사람들이 나와 있습니다
+
+55
+00:08:14,466 --&gt; 00:08:20,533
+완전히 붐비지는 않지만
+적당한 활기가 느껴지는 정도입니다
+
+56
+00:08:21,333 --&gt; 00:08:26,500
+이런 분위기가
+한강 특유의 매력이라고 할 수 있습니다
+
+57
+00:08:27,433 --&gt; 00:08:34,866
+이렇게 도심에서 가까운 곳에
+이 정도 규모의 강과 공원이 있다는 점은
+
+58
+00:08:35,299 --&gt; 00:08:42,133
+서울이라는 도시가 가진
+큰 장점 중 하나이기도 합니다
+
+59
+00:08:42,533 --&gt; 00:08:49,700
+짧은 시간만 투자해도
+완전히 다른 분위기로 이동할 수 있다는 점이
+
+60
+00:08:50,066 --&gt; 00:08:57,200
+오늘처럼 당산역에서 출발해서
+육교를 건너 이곳까지 오는 코스는
+
+61
+00:08:57,300 --&gt; 00:09:06,066
+복잡하지 않으면서도
+도시와 자연을 동시에 느낄 수 있는 효율적인 동선입니다
+
+62
+00:09:06,166 --&gt; 00:09:12,300
+처음 방문하는 분들도
+부담 없이 따라올 수 있는 루트입니다
+
+63
+00:09:12,466 --&gt; 00:09:19,833
+이제 해가 조금 더 내려가면
+한강의 분위기는 또 한 번 달라지게 됩니다
+
+64
+00:09:19,866 --&gt; 00:09:27,033
+조금 전까지의 낮 풍경과는 다른
+차분한 저녁의 느낌이 시작되겠죠
+
+65
+00:09:27,333 --&gt; 00:09:35,500
+그 변화까지 함께 느껴보는 것도
+이 코스의 또 다른 재미입니다
+
+66
+00:09:36,833 --&gt; 00:09:45,766
+당산역 4번 출구에서 출발해 당산 보행육교를 지나
+양화한강공원까지 이동해봤습니다
+
+67
+00:09:45,933 --&gt; 00:09:49,766
+접근성이 좋고
+보행 환경이 편리하며
+
+68
+00:09:50,100 --&gt; 00:09:56,733
+도심과 한강을 자연스럽게 연결하는
+효율적인 산책 코스입니다
+
+69
+00:09:57,166 --&gt; 00:10:04,300
+처음 방문하시는 분들도
+쉽게 이용할 수 있는 동선이니 참고하시면 좋겠습니다
+
+70
+00:10:05,266 --&gt; 00:10:11,800
+함께 걸어주셔서 감사합니다.
+다음 산책에서  다시 만나요
+
+</property>
+    </filter>
+    <filter id="filter6" out="00:01:16.033">
+      <property name="geometry">250 800 1400 160 1</property>
+      <property name="family">이사만루체</property>
+      <property name="size">54</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">20</property>
+      <property name="underline">0</property>
+      <property name="strikethrough">0</property>
+      <property name="opacity">1.0</property>
+      <property name="mlt_service">subtitle</property>
+      <property name="shotcut:filter">subtitles</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="feed">자막 트랙 1</property>
+      <property name="shotcut:pointSize">41</property>
+    </filter>
+  </tractor>
+</mlt>
